@@ -8,17 +8,75 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var img1 = ""
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            
+            ZStack {
+                
+                VStack {
+                    
+                    Spacer()
+                    Spacer()
+                    Text("Do you find yourself easily distracted before an assignment?")
+                        .font(.title)
+                        .fontWeight(.bold)
+                    Spacer()
+                    Spacer()
+                    Spacer()
+                    
+                    Button("Agree") {
+                        img1 = "cat1"
+                    } .font(.title)
+                        .buttonStyle(.borderedProminent)
+                        .tint(.blue)
+                    Spacer()
+                    Spacer()
+                    
+                    Button("Neutral") {
+                        img1 = "cat1"
+                    } .font(.title)
+                        .buttonStyle(.borderedProminent)
+                        .tint(.blue)
+                    Spacer()
+                    Spacer()
+                    
+                    Button("Disagree") {
+                        img1 = "cat1"
+                    } .font(.title)
+                        .buttonStyle(.borderedProminent)
+                        .tint(.blue)
+                    Spacer()
+                    
+                    Spacer()
+                    Spacer()
+                    Spacer()
+                    
+                    //    Text(img)
+                    //     .padding(.bottom)
+                    //     .frame(width: 500, height: 5)
+                    Image(img1)
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 300, height: 300) // Adjust size as needed
+                        .padding()
+                    Spacer()
+                    
+                    
+                    
+                    NavigationLink(destination: question2()) {
+                        
+                        Text("Next")
+                            
+                        }
+                        
+                        
+                    }
+                }
+                
+            }
         }
-        .padding()
     }
-}
-
 #Preview {
     ContentView()
 }
