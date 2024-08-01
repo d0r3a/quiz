@@ -15,7 +15,6 @@
 		BD6615152C591A7600BA72C8 /* question7.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6615142C591A7600BA72C8 /* question7.swift */; };
 		BD6615172C591A8C00BA72C8 /* question8.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6615162C591A8C00BA72C8 /* question8.swift */; };
 		BD6615192C591A9900BA72C8 /* question9.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6615182C591A9900BA72C8 /* question9.swift */; };
-		BD66151B2C591AA600BA72C8 /* question10.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD66151A2C591AA600BA72C8 /* question10.swift */; };
 		BD6615552C5A50A600BA72C8 /* SaveLemon-rvr69.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD6615542C5A50A500BA72C8 /* SaveLemon-rvr69.ttf */; };
 		BD6615562C5A50A600BA72C8 /* SaveLemon-rvr69.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD6615542C5A50A500BA72C8 /* SaveLemon-rvr69.ttf */; };
 		BD6615572C5A50A600BA72C8 /* SaveLemon-rvr69.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD6615542C5A50A500BA72C8 /* SaveLemon-rvr69.ttf */; };
@@ -54,7 +53,6 @@
 		BD6615142C591A7600BA72C8 /* question7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = question7.swift; sourceTree = "<group>"; };
 		BD6615162C591A8C00BA72C8 /* question8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = question8.swift; sourceTree = "<group>"; };
 		BD6615182C591A9900BA72C8 /* question9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = question9.swift; sourceTree = "<group>"; };
-		BD66151A2C591AA600BA72C8 /* question10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = question10.swift; sourceTree = "<group>"; };
 		BD6615542C5A50A500BA72C8 /* SaveLemon-rvr69.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SaveLemon-rvr69.ttf"; sourceTree = "<group>"; };
 		BD6615582C5A50D000BA72C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		BD8DF39A2C58F97500ABAE0B /* quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,7 +127,6 @@
 				BD6615142C591A7600BA72C8 /* question7.swift */,
 				BD6615162C591A8C00BA72C8 /* question8.swift */,
 				BD6615182C591A9900BA72C8 /* question9.swift */,
-				BD66151A2C591AA600BA72C8 /* question10.swift */,
 				BD8DF3A12C58F97700ABAE0B /* Assets.xcassets */,
 				BD8DF3A32C58F97700ABAE0B /* Preview Content */,
 			);
@@ -298,7 +295,6 @@
 				BD6615152C591A7600BA72C8 /* question7.swift in Sources */,
 				BD8DF3A02C58F97500ABAE0B /* ContentView.swift in Sources */,
 				BD6615192C591A9900BA72C8 /* question9.swift in Sources */,
-				BD66151B2C591AA600BA72C8 /* question10.swift in Sources */,
 				BD66150F2C59192C00BA72C8 /* question4.swift in Sources */,
 				BD6615172C591A8C00BA72C8 /* question8.swift in Sources */,
 				BD0FF9422C59113600A88623 /* question3.swift in Sources */,
