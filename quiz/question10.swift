@@ -12,7 +12,9 @@ struct question10: View {
     var body: some View {
 
              ZStack {
-               
+                 RadialGradient(gradient: Gradient(colors: [Color.sage1 , Color.sage2]), center: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, startRadius: 99, endRadius: /*@START_MENU_TOKEN@*/500/*@END_MENU_TOKEN@*/)
+                     .ignoresSafeArea()
+
                  
                  VStack {
                      Spacer()

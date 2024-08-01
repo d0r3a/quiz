@@ -14,13 +14,30 @@ struct question2: View {
          NavigationStack {
              ZStack {
                
+                 RadialGradient(gradient: Gradient(colors: [Color.sage1 , Color.sage2]), center: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, startRadius: 99, endRadius: /*@START_MENU_TOKEN@*/500/*@END_MENU_TOKEN@*/)
+                     .ignoresSafeArea()
+
                
                  VStack {
                      Spacer()
                      Spacer()
-                     Text("Do you ever catch yourself overestimating your assignments and thinking that they are much easier to complete?")
-                         .font(.title)
-                         .fontWeight(.bold)
+                     
+                     ZStack {
+                         Rectangle()
+                             .cornerRadius(20)
+                             .padding()
+                             .foregroundColor(Color.sage4)
+                         
+                         Text("Do you often overestimate the ease of completing your assignments?")
+                             .font(.title)
+                             .padding()
+                             .font(.title)
+                             .fontWeight(.light)
+                             .foregroundColor(Color.white)
+                             .multilineTextAlignment(.center)
+                         
+                     }
+
                      Spacer()
                      Spacer()
                      Spacer()
@@ -29,7 +46,8 @@ struct question2: View {
                          img2 = "cat2"
                      } .font(.title)
                          .buttonStyle(.borderedProminent)
-                         .tint(.blue)
+                         .tint(.sage3)
+                         .foregroundColor(Color.white)
                      Spacer()
                      Spacer()
                      
@@ -37,15 +55,18 @@ struct question2: View {
                          img2 = "cat2"
                      } .font(.title)
                          .buttonStyle(.borderedProminent)
-                         .tint(.blue)
+                         .tint(.sage3)
+                         .foregroundColor(Color.white)
                      Spacer()
                      Spacer()
                      
                      Button("Disagree") {
                          img2 = "cat2"
+                         
                      } .font(.title)
                          .buttonStyle(.borderedProminent)
-                         .tint(.blue)
+                         .tint(.sage3)
+                         .foregroundColor(Color.white)
                      Spacer()
                      
                      Spacer()

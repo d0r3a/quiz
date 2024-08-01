@@ -13,14 +13,27 @@ struct question6: View {
 
          NavigationStack {
              ZStack {
-               
+                 RadialGradient(gradient: Gradient(colors: [Color.sage1 , Color.sage2]), center: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, startRadius: 99, endRadius: /*@START_MENU_TOKEN@*/500/*@END_MENU_TOKEN@*/)
+                     .ignoresSafeArea()
+
                  
                  VStack {
                      Spacer()
                      Spacer()
-                     Text("Do you ever catch yourself spending hours to start")
-                         .font(.title)
-                         .fontWeight(.bold)
+                     
+                     ZStack {
+                         Rectangle()
+                             .cornerRadius(20)
+                             .padding()
+                             .foregroundColor(Color.sage4)
+                     Text("Do you ever spend hours just trying to start an assignment?")
+                             .padding()
+                             .font(.title)
+                             .fontWeight(.semibold)
+                             .foregroundColor(Color.white)
+                             .multilineTextAlignment(.center)
+                         
+                     }
                      Spacer()
                      Spacer()
                      Spacer()
@@ -29,7 +42,8 @@ struct question6: View {
                          img6 = "cat3"
                      } .font(.title)
                          .buttonStyle(.borderedProminent)
-                         .tint(.blue)
+                         .tint(.sage3)
+                         .foregroundColor(Color.white)
                      Spacer()
                      Spacer()
                      
@@ -37,7 +51,8 @@ struct question6: View {
                          img6 = "cat3"
                      } .font(.title)
                          .buttonStyle(.borderedProminent)
-                         .tint(.blue)
+                         .tint(.sage3)
+                         .foregroundColor(Color.white)
                      Spacer()
                      Spacer()
                      
@@ -45,7 +60,8 @@ struct question6: View {
                          img6 = "cat3"
                      } .font(.title)
                          .buttonStyle(.borderedProminent)
-                         .tint(.blue)
+                         .tint(.sage3)
+                         .foregroundColor(Color.white)
                      Spacer()
                      
                      Spacer()
